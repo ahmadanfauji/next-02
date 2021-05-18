@@ -32,3 +32,22 @@
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
 }
+.slick-prev {
+  left: -52px !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #8d8d8d;
+  font-size: 48px;
+  transition: all 0.25s ease;
+}
+
+.next-slick-arrow:hover,
+.prev-slick-arrow:hover {
+  color: black;
+}
